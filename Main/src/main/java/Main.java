@@ -6,6 +6,6 @@ import psn.jeffreyzhang.thoughts.StringSimilarity;
 public class Main {
 
     public static void main(String[] args){
-        new StringSimilarity().getSimilarityRatio("")
+        //new StringSimilarity().getSimilarityRatio("")
     }
 }
