@@ -1,8 +1,6 @@
-package psn.jeffreyzhang.thoughts;
+package psn.jeffreyzhang.thoughts.statemachine;
 
 import java.util.EnumMap;
-
-import static psn.jeffreyzhang.thoughts.StateMachineInput.*;
 /**
  * 状态转换
  * <p>
@@ -14,10 +12,10 @@ import static psn.jeffreyzhang.thoughts.StateMachineInput.*;
  * 该类是为了获得输入命令的类别
  */
 enum Category {
-    MONEY(NICKEL, DIME, QUARTER, DOLLAR),
-    ITEM_SELECTION(TOOTHPASTE, CHIPS, SODA, SOAP),
-    QUIT_TRANSACTION(ABOUT_TRANSACTION),
-    SHUT_DOWN(STOP);
+    MONEY(StateMachineInput.NICKEL, StateMachineInput.DIME, StateMachineInput.QUARTER, StateMachineInput.DOLLAR),
+    ITEM_SELECTION(StateMachineInput.TOOTHPASTE, StateMachineInput.CHIPS, StateMachineInput.SODA, StateMachineInput.SOAP),
+    QUIT_TRANSACTION(StateMachineInput.ABOUT_TRANSACTION),
+    SHUT_DOWN(StateMachineInput.STOP);
     private static EnumMap<StateMachineInput, Category> categories = new EnumMap<StateMachineInput, Category>(StateMachineInput.class);
 
     static {

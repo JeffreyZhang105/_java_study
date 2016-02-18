@@ -1,4 +1,4 @@
-package psn.jeffreyzhang.thoughts;
+package psn.jeffreyzhang.thoughts.statemachine;
 
 import java.util.Random;
 

@@ -1,5 +1,3 @@
-import psn.jeffreyzhang.thoughts.StringSimilarity;
-
 /**
  * Created by zhangjf on 2016/02/05.
  */

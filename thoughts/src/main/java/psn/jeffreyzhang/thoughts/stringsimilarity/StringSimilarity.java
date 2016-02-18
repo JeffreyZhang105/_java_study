@@ -1,4 +1,4 @@
-package psn.jeffreyzhang.thoughts;
+package psn.jeffreyzhang.thoughts.stringsimilarity;
 
 public class StringSimilarity {
 
