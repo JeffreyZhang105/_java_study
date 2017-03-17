@@ -1,0 +1,3 @@
+rootProject.name = 'jaza'
+
+include 'runner', 'thoughts', 'algorithms', 'demos'

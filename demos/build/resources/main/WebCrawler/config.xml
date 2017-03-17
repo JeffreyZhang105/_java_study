@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <targets>
+        <target>
+            <name>大盘资金流向(沪深两市)</name>
+            <url>http://data.eastmoney.com/zjlx/dpzjlx.html</url>
+            <elements>
+                <element>
+                    <cssQuery>.flash-data-cont</cssQuery>
+                </element>
+            </elements>
+        </target>
+        <target>
+            <name>个股资金流</name>
+            <url>http://data.eastmoney.com/zjlx/detail.html</url>
+        </target>
+    </targets>
+</config>

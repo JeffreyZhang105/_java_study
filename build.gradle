@@ -1,0 +1,29 @@
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+    apply plugin: 'idea'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    [compileJava,compileTestJava,javadoc]*.options*.encoding = 'UTF-8'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        testCompile 'junit:junit:[4.10,)'
+    }
+
+    jar {
+        manifest {
+            attributes 'Implementation-Title': 'jaza', 'Implementation-Version': 1.0
+        }
+    }
+
+    tasks.withType(Jar) {
+        destinationDir = file("$rootDir/build/")
+    }
+}
+
