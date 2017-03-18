@@ -1,0 +1,12 @@
+
+idea{
+    module{
+        name = 'runner'
+    }
+}
+
+dependencies {
+    compile project(':demos')
+    compile project(':algorithms')
+    compile project(':thoughts')
+}
