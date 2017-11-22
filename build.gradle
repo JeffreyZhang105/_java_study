@@ -20,7 +20,9 @@ subprojects {
     }
 
     dependencies {
-        testCompile 'junit:junit:[4.10,)'
+        testCompile 'junit:junit'
+        compile 'org.apache.logging.log4j:log4j-api'
+        compile 'org.apache.logging.log4j:log4j-core'
     }
 
     jar {

@@ -14,6 +14,10 @@ public class MyData {
      */
     public final String value;
 
+    /**
+     * @param newName
+     * @param newValue
+     */
     public MyData(String newName, String newValue) {
         name = newName;
         value = newValue;
