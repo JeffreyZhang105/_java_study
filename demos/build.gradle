@@ -7,10 +7,10 @@ idea{
 
 
 dependencies {
-    compile 'net.sourceforge.htmlunit:htmlunit:[2.25,)'
-    compile 'org.jsoup:jsoup:[1.10.2,)'
-    compile 'org.apache.commons:commons-configuration2:[2.1.1,)'
-    compile 'org.apache.logging.log4j:log4j-core:[2.8.1,)'
+    compile 'net.sourceforge.htmlunit:htmlunit:+'
+    compile 'org.jsoup:jsoup:+'
+    compile 'org.apache.commons:commons-configuration2:+'
+    compile 'org.apache.logging.log4j:log4j-core:+'
 }
 
 task makeWebCrawler(dependsOn: 'build', type: Jar) {

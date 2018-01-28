@@ -95,14 +95,30 @@ public class AVLTree<T extends Comparable<? super T>> {
                     } else {
                         tree = rightLeftRotation(tree);
                     }
-                }
+            }
             } else {
-
+                System.out.println();
             }
         }
 
         tree.height = max(height(tree.left), height(tree.right)) + 1;
         return tree;
+    }
+
+    private AVLTreeNode<T> remove(AVLTreeNode<T> tree, AVLTreeNode<T> node){
+        if(tree==null || node==null){
+            return null;
+        }
+
+        int com=node.key.compareTo(tree.key);
+        if(com<0){
+            tree.left=remove(tree.left,node);
+            if(height(tree.right)-height(tree.left)==2){
+                AVLTreeNode<T> right=tree.right;
+            }
+        }
+
+        return null;
     }
 
     public class AVLTreeNode<T extends Comparable<? super T>> {
