@@ -16,8 +16,8 @@
       <module name="algorithms_test" target="1.8" />
       <module name="demos_main" target="1.8" />
       <module name="demos_test" target="1.8" />
-      <module name="jaza_main" target="1.8" />
-      <module name="jaza_test" target="1.8" />
+      <module name="jaza_main" target="1.10" />
+      <module name="jaza_test" target="1.10" />
       <module name="runner_main" target="1.8" />
       <module name="runner_test" target="1.8" />
       <module name="thoughts_main" target="1.8" />
@@ -31,15 +31,16 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/Software/gradle-4.7" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/algorithms" />
             <option value="$PROJECT_DIR$/demos" />
-            <option value="$PROJECT_DIR$/runner" />
             <option value="$PROJECT_DIR$/thoughts" />
           </set>
         </option>
@@ -209,15 +210,12 @@
       <module fileurl="file://$PROJECT_DIR$/jaza.iml" filepath="$PROJECT_DIR$/jaza.iml" />
       <module fileurl="file://$PROJECT_DIR$/jaza_main.iml" filepath="$PROJECT_DIR$/jaza_main.iml" group="jaza" />
       <module fileurl="file://$PROJECT_DIR$/jaza_test.iml" filepath="$PROJECT_DIR$/jaza_test.iml" group="jaza" />
-      <module fileurl="file://$PROJECT_DIR$/runner/runner.iml" filepath="$PROJECT_DIR$/runner/runner.iml" group="runner" />
-      <module fileurl="file://$PROJECT_DIR$/runner/runner_main.iml" filepath="$PROJECT_DIR$/runner/runner_main.iml" group="runner" />
-      <module fileurl="file://$PROJECT_DIR$/runner/runner_test.iml" filepath="$PROJECT_DIR$/runner/runner_test.iml" group="runner" />
       <module fileurl="file://$PROJECT_DIR$/thoughts/thoughts.iml" filepath="$PROJECT_DIR$/thoughts/thoughts.iml" group="thoughts" />
       <module fileurl="file://$PROJECT_DIR$/thoughts/thoughts_main.iml" filepath="$PROJECT_DIR$/thoughts/thoughts_main.iml" group="thoughts" />
       <module fileurl="file://$PROJECT_DIR$/thoughts/thoughts_test.iml" filepath="$PROJECT_DIR$/thoughts/thoughts_test.iml" group="thoughts" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="JDK10" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SvnBranchConfigurationManager">
@@ -452,22 +450,22 @@
         <root url="jar://D:/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.4.9.v20180320/1266231437bafec4fc772698db44085be32111d9/jetty-xml-9.4.9.v20180320-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: org.jsoup:jsoup:1.11.2">
+    <library name="Gradle: org.jsoup:jsoup:1.11.3">
       <CLASSES>
-        <root url="jar://D:/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.11.2/e3eeb8a0b4ce1db246059a41e353cd7413dad226/jsoup-1.11.2.jar!/" />
+        <root url="jar://D:/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.11.3/36da09a8f68484523fa2aaa100399d612b247d67/jsoup-1.11.3.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://D:/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.11.2/f0f1f0d1ceb2cd515c98649d9ad6b8b9814899b2/jsoup-1.11.2-sources.jar!/" />
+        <root url="jar://D:/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.11.3/871302b15d8cee9bfb393c4f1d0386b17646d8d1/jsoup-1.11.3-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: org.junit.platform:junit-platform-commons:1.1.1">
+    <library name="Gradle: org.junit.platform:junit-platform-commons:1.2.0-M1">
       <CLASSES>
-        <root url="jar://D:/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.1.1/36fca464a84454cf56ae2759a8ba18d6d99d1113/junit-platform-commons-1.1.1.jar!/" />
+        <root url="jar://D:/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.2.0-M1/5825e2252dd11aaa80811f85533b1838fc23a4a6/junit-platform-commons-1.2.0-M1.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://D:/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.1.1/acd910bc6b783c9e6fe138c08d4f148b691dfc3b/junit-platform-commons-1.1.1-sources.jar!/" />
+        <root url="jar://D:/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.2.0-M1/c0f99133af8b25f12a3790462a68eafacafeeb97/junit-platform-commons-1.2.0-M1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: xalan:serializer:2.7.2">
