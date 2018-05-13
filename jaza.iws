@@ -2,27 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a53091-caf6-4544-80d1-c3efc82bd83d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/src/test/resources/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thoughts/src/main/resources/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thoughts/src/test/resources/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/algorithms_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/algorithms_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms/algorithms_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/algorithms_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/demos_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demos/demos_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/demos_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demos/demos_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaza.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/jaza.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/graph/adjacencyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/graph/adjacencyTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/graph/dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/AVLTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/AVLTree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/BinaryTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/BinaryTree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/Heapsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/Heapsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/src/test/java/psn/jeffreyzhang/jaza/algorithms/test/AVLTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/test/java/psn/jeffreyzhang/jaza/algorithms/test/AVLTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/demos/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/src/main/java/pdn/jeffreyzhang/jaza/demos/genericity/FunctionObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/demos/src/main/java/pdn/jeffreyzhang/jaza/demos/genericity/FunctionObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/src/main/java/psn/jeffreyzhang/jaza/demos/WebCrawler/Data/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/demos/src/main/java/psn/jeffreyzhang/jaza/demos/WebCrawler/Data/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/src/main/java/psn/jeffreyzhang/jaza/demos/WebCrawler/Data/DataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demos/src/main/java/psn/jeffreyzhang/jaza/demos/WebCrawler/Data/DataWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/src/main/java/psn/jeffreyzhang/jaza/demos/WebCrawler/MyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/demos/src/main/java/psn/jeffreyzhang/jaza/demos/WebCrawler/MyData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jaza.iws" beforeDir="false" afterPath="$PROJECT_DIR$/jaza.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaza_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jaza_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jaza_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jaza_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/runner.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/runner_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/runner_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/src/main/java/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/src/main/java/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thoughts/thoughts_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts/thoughts_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thoughts/thoughts_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts/thoughts_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thoughts/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thoughts/src/main/java/MaxSubSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts/src/main/java/MaxSubSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -104,83 +105,7 @@
     <favorites_list name="jaza" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/InsertSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AVLTreeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/src/test/java/psn/jeffreyzhang/jaza/algorithms/test/AVLTreeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/MainClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Heapsort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/Heapsort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -768,174 +693,6 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/runner">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':runner'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="cleanEclipseClasspath" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':runner'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Cleans all Eclipse files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="cleanEclipse" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':runner'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':runner'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="cleanEclipseProject" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates the Eclipse classpath file." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="eclipseClasspath" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':runner'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':runner'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="cleanEclipseJdt" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':runner'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':runner'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates all Eclipse files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="eclipse" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates the Eclipse JDT settings file." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="eclipseJdt" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates the Eclipse project file." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="eclipseProject" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':runner'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/runner" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/thoughts">
           <value>
             <list>
@@ -1361,7 +1118,24 @@
         <option value="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/QuickSort.java" />
         <option value="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/MergeSort.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/graph/BreadthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/graph/AMWGraph.java" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/graph/dijkstra.java" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/graph/adjacencyTable.java" />
+        <option value="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/graph/adjacencyList.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\.m2" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ModuleEditorState">
@@ -1369,10 +1143,10 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="286" />
-    <option name="y" value="17" />
-    <option name="width" value="1394" />
-    <option name="height" value="1018" />
+    <option name="x" value="51" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -1389,7 +1163,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1397,120 +1172,11 @@
               <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
               <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="algorithms" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="demos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="thoughts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="thoughts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="thoughts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaza" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="thoughts" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1520,12 +1186,20 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.49286395" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Codes\java\jaza\thoughts\src\test\resources" />
+      <recent name="D:\Codes\java\jaza\thoughts\src\main\resources" />
+      <recent name="D:\Codes\java\jaza\algorithms\src\test\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1596,16 +1270,6 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="algorithms" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -1683,6 +1347,16 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="algorithms" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
@@ -1696,6 +1370,7 @@
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -1706,7 +1381,6 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="algorithms" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -1783,15 +1457,14 @@
       <method />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="algorithms" />
     </configuration>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1817,15 +1490,14 @@
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="algorithms" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -1835,44 +1507,41 @@
       <option name="USE_PATTERN" value="false" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="algorithms" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="algorithms" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
+      <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="algorithms" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
@@ -1935,40 +1604,72 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50290275" side_tool="true" weight="0.31171548" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3296582" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50290275" side_tool="true" weight="0.31171548" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" x="-1177" y="246" width="1098" height="524" id="Run" order="2" type="WINDOWED" weight="0.32845187" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3296582" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885418" />
-      <window_info anchor="bottom" x="-1250" y="310" width="1177" height="640" id="Build" order="8" type="WINDOWED" visible="true" weight="0.3294979" />
-      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
+      <window_info anchor="right" id="Gradle" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" x="-1204" y="311" width="1089" height="661" id="Debug" order="3" type="WINDOWED" weight="0.39958158" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49709725" weight="0.32879582" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49709725" weight="0.32879582" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Nl-Palette" order="2" />
+      <window_info id="Nl-Palette" order="7" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" x="-1250" y="310" width="1177" height="640" id="Build" order="11" type="WINDOWED" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
+      <window_info anchor="right" id="Data View" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" x="-1250" y="310" width="1177" height="640" id="Build" order="11" type="WINDOWED" visible="true" weight="0.3294979" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" x="-1177" y="246" width="1098" height="524" id="Run" order="2" type="WINDOWED" weight="0.32845187" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50290275" side_tool="true" weight="0.31171548" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="10" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3296582" />
+      <window_info id="Nl-Palette" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885418" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49709725" weight="0.32879582" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
+      <window_info anchor="bottom" x="-1204" y="311" width="1089" height="661" id="Debug" order="3" type="WINDOWED" weight="0.39958158" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -2007,34 +1708,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demos/src/main/resources/WebCrawler/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/src/main/resources/WebCrawler/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/src/main/java/pdn/jeffreyzhang/jaza/demos/genericity/FunctionObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demos/src/main/resources/WebCrawler/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -2202,20 +1875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demos/src/main/java/psn/jeffreyzhang/jaza/demos/WebCrawler/Data/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/src/main/java/psn/jeffreyzhang/jaza/demos/WebCrawler/MyData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/AVLTree/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
@@ -2231,13 +1890,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/Sorting.java" />
-    <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/Main.java" />
     <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/Main.java" />
     <entry file="file://$PROJECT_DIR$/runner/src/main/java/MainClass.java" />
@@ -2261,9 +1913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2271,13 +1920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -2290,8 +1932,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="266">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/sorting/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/graph/AMWGraph.java" />
+    <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/graph/adjacencyTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/graph/adjacencyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/main/java/psn/jeffreyzhang/jaza/algorithms/graph/dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/src/main/java/psn/jeffreyzhang/jaza/demos/WebCrawler/MyData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/src/main/java/psn/jeffreyzhang/jaza/demos/WebCrawler/Data/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

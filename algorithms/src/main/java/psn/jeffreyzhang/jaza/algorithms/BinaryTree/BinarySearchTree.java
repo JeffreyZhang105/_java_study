@@ -1,123 +1,119 @@
 package psn.jeffreyzhang.jaza.algorithms.BinaryTree;
 
-import org.omg.CORBA.Any;
-
-import java.nio.BufferUnderflowException;
-
 public class BinarySearchTree<AnyType extends Comparable<? super AnyType>> {
 
-    private static class BinaryNode<AnyType> {
+	private BinaryNode<AnyType> root;
 
-        BinaryNode(AnyType element) {
-            this(element, null, null);
-        }
+	public BinarySearchTree() {
+		root = null;
+	}
 
-        BinaryNode(AnyType thisElement, BinaryNode<AnyType> leftElement, BinaryNode<AnyType> rightElement) {
-            element = thisElement;
-            left = leftElement;
-            right = rightElement;
-        }
+	public void makeEmpty() {
+		root = null;
+	}
 
-        AnyType element;
-        BinaryNode<AnyType> left;
-        BinaryNode<AnyType> right;
-    }
+	public boolean isEmpty() {
+		return root == null;
+	}
 
-    private BinaryNode<AnyType> root;
+	public boolean contains(AnyType x) {
+		return contains(x, root);
+	}
 
-    public BinarySearchTree() {
-        root = null;
-    }
+	public AnyType findMin() throws UnderflowException {
+		if (isEmpty())
+			throw new UnderflowException();
+		return findMin(root).element;
+	}
 
-    public void makeEmpty() {
-        root = null;
-    }
+	public void insert(AnyType x) {
+		insert(x, root);
+	}
 
-    public boolean isEmpty() {
-        return root == null;
-    }
+	public void remove(AnyType x) {
+		remove(x, root);
+	}
 
-    public boolean contains(AnyType x) {
-        return contains(x, root);
-    }
+	private boolean contains(AnyType x, BinaryNode<AnyType> t) {
+		if (t == null)
+			return false;
 
-    public AnyType findMin() throws UnderflowException {
-        if (isEmpty())
-            throw new UnderflowException();
-        return findMin(root).element;
-    }
+		int compareResult = x.compareTo(t.element);
+		if (compareResult < 0)
+			return contains(x, t.left);
+		else if (compareResult > 0)
+			return contains(x, t.right);
+		else
+			return true;
+	}
 
-    public void insert(AnyType x) {
-        insert(x, root);
-    }
+	private BinaryNode<AnyType> findMin(BinaryNode<AnyType> t) {
+		if (t == null)
+			return null;
+		else if (t.left == null)
+			return t;
 
-    public void remove(AnyType x) {
-        remove(x, root);
-    }
+		return findMin(t);
+	}
 
-    private boolean contains(AnyType x, BinaryNode<AnyType> t) {
-        if (t == null)
-            return false;
+	private BinaryNode<AnyType> findMax(BinaryNode<AnyType> t) {
+		if (t != null)
+			while (t.right != null)
+				t = t.right;
 
-        int compareResult = x.compareTo(t.element);
-        if (compareResult < 0)
-            return contains(x, t.left);
-        else if (compareResult > 0)
-            return contains(x, t.right);
-        else return true;
-    }
+		return t;
+	}
 
-    private BinaryNode<AnyType> findMin(BinaryNode<AnyType> t) {
-        if (t == null)
-            return null;
-        else if (t.left == null)
-            return t;
+	private BinaryNode<AnyType> insert(AnyType x, BinaryNode<AnyType> t) {
+		if (t == null)
+			t = new BinaryNode<AnyType>(x, null, null);
 
-        return findMin(t);
-    }
+		int compareResult = x.compareTo(t.element);
+		if (compareResult < 0)
+			t.left = insert(x, t.left);
+		else if (compareResult > 0)
+			t.right = insert(x, t.right);
+		else
+			;
 
-    private BinaryNode<AnyType> findMax(BinaryNode<AnyType> t) {
-        if (t != null)
-            while (t.right != null)
-                t = t.right;
+		return t;
+	}
 
-        return t;
-    }
+	private BinaryNode<AnyType> remove(AnyType x, BinaryNode<AnyType> t) {
+		if (t == null)
+			return t;
 
-    private BinaryNode<AnyType> insert(AnyType x, BinaryNode<AnyType> t) {
-        if (t == null)
-            t = new BinaryNode<AnyType>(x, null, null);
+		int compareResult = x.compareTo(t.element);
 
-        int compareResult = x.compareTo(t.element);
-        if (compareResult < 0)
-            t.left = insert(x, t.left);
-        else if (compareResult > 0)
-            t.right = insert(x, t.right);
-        else ;
+		if (compareResult < 0)
+			t.left = remove(x, t.left);
+		else if (compareResult > 0)
+			t.right = remove(x, t.right);
+		else if (t.left != null && t.right != null) {
+			t.element = findMin(t.right).element;
+			t.right = remove(t.element, t.right);
+		} else
+			t = t.left != null ? t.left : t.right;
 
-        return t;
-    }
+		return t;
+	}
 
-    private BinaryNode<AnyType> remove(AnyType x, BinaryNode<AnyType> t) {
-        if (t == null)
-            return t;
+	private void printTree(BinaryNode<AnyType> t) {
 
-        int compareResult = x.compareTo(t.element);
+	}
 
-        if (compareResult < 0)
-            t.left = remove(x, t.left);
-        else if (compareResult > 0)
-            t.right = remove(x, t.right);
-        else if (t.left != null && t.right != null) {
-            t.element = findMin(t.right).element;
-            t.right = remove(t.element, t.right);
-        } else
-            t = t.left != null ? t.left : t.right;
+	private static class BinaryNode<AnyType> {
 
-        return t;
-    }
-
-    private void printTree(BinaryNode<AnyType> t) {
-
-    }
+		AnyType element;
+		BinaryNode<AnyType> left;
+		BinaryNode<AnyType> right;
+		BinaryNode(AnyType element) {
+			this(element, null, null);
+		}
+		BinaryNode(AnyType thisElement, BinaryNode<AnyType> leftElement, BinaryNode<AnyType> rightElement) {
+			element = thisElement;
+			left = leftElement;
+			right = rightElement;
+		}
+	}
 }

@@ -1,6 +1,5 @@
-
-idea{
-    module{
+idea {
+    module {
         name = 'thoughts'
     }
 }

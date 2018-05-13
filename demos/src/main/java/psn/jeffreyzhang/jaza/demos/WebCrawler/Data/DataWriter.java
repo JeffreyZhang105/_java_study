@@ -13,27 +13,27 @@ import java.util.Date;
  */
 public class DataWriter {
 
-    private static final String FILE_EXT = ".txt";
+	private static final String FILE_EXT = ".txt";
 
-    private static final String DATE_FORMAT = "yyyyMMdd";
+	private static final String DATE_FORMAT = "yyyyMMdd";
 
-    /**
-     * 输出文本文件。格式：yyyyMMdd/数据名.txt
-     *
-     * @param data 要输出的数据
-     * @throws IOException
-     */
-    public synchronized static void writeDataByDate(MyData data) throws IOException {
-        SimpleDateFormat format = new SimpleDateFormat(DATE_FORMAT);
-        String date = format.format(new Date());
-        File directory = new File(date);
-        if (!directory.exists()) {
-            directory.mkdirs();
-        }
+	/**
+	 * 输出文本文件。格式：yyyyMMdd/数据名.txt
+	 *
+	 * @param data 要输出的数据
+	 * @throws IOException
+	 */
+	public synchronized static void writeDataByDate(MyData data) throws IOException {
+		SimpleDateFormat format = new SimpleDateFormat(DATE_FORMAT);
+		String date = format.format(new Date());
+		File directory = new File(date);
+		if (!directory.exists()) {
+			directory.mkdirs();
+		}
 
-        String outFileName = date + File.separator + data.name + FILE_EXT;
-        FileWriter writer = new FileWriter(outFileName, true);
-        writer.write(data.value);
-        writer.close();
-    }
+		String outFileName = date + File.separator + data.name + FILE_EXT;
+		FileWriter writer = new FileWriter(outFileName, true);
+		writer.write(data.value);
+		writer.close();
+	}
 }
